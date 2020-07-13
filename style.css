@@ -1,4 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    position: relative;
+}
+
+body {
+    background: lightgrey;
+    margin-bottom: 60px;
+}
+
+.container {
+    min-height: 100%;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px;
+    margin-bottom: -60px;
+}
+
+header {
+    background: white;
+    color: white;
+    box-shadow: 0 0 15px 0 black;
+}
+
+header h1 {
+    background: #4AAAA5;
+    padding: 30px;
+    margin: 0;
+    width: fit-content;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+    margin-left: 50px;
+}
+
+nav {
+    padding-top: 30px;
+    margin-right: 20px;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
 ul, li {
     list-style-type: none;
+    display: inline-block; 
+}
+
+li {
+    margin: 20px;  
+    margin-bottom: 0; 
+    line-height: 20px;
+}
+
+a {
+    color: #777777;
+    text-decoration: none;
+}
+
+
+.about-content, .contact-content, .portfolio-content {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    margin-right: 500px;
     display: inline-block;
+    width: 75%
+}
+
+.about-img {
+    max-height: 250px;
+    float: left;
+    margin: 10px;
+}
+
+
+/*Portfolio thumbnail CSS*/
+.img-thumbnail {
+    max-width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: none;
+}
+
+h2 {
+    color: #4AAAA5;
+}
+
+p {
+    color:#777777;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+    background-color: #777777;
+    color: #ffffff;
+    text-align: center;
+    overflow: auto;
+}
+
+.footer p {
+    color: #ffffff;
+}
+
+@media(max-width:980px) {
+
+}
+
+@media(max-width:768px) {
+
+}
+
+@media(max-width:640px) {
+    header {
+        width:100%
+    }
+    header h1 {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+    
+    nav {
+        text-align: center;
+    }
+
+    .about-content {
+        margin: 20px 20px;
+        width: fit-content;
+        padding: 20px;
+    }
+
+    .about-img {
+        max-height: 250px;
+        margin: 10px;
+        float: none;
+    }
+
 }
