@@ -1,4 +1,7 @@
 # homework-week-2
+
+Deployed Page: https://nardacyon.github.io/homework-week-2/index.html
+
 The goal of this assignment is to create a site that is responsive and is compatible with mobile devices. I have given a short introduction about me in the homepage of the site. This app is meant to be functional, and is supposed to contain information about me, links to certain projects that will be added into my portfolio, while also containing hyperlinks to the social media I provide.
 
 This webpage is very personal. Over 15+ hours has been put into the development of this page from scratch, using Bootstrap and various sources from the internet to help create it.
